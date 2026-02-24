@@ -77,8 +77,8 @@ def main():
     )
     parser.add_argument(
         '--model', default='F5TTS_v1_Base',
-        choices=['F5TTS_v1_Base', 'F5TTS_v1_Base_zh'],
-        help='Model to use: F5TTS_v1_Base (English+Chinese) or F5TTS_v1_Base_zh (Chinese-optimized). Default: F5TTS_v1_Base.'
+        choices=['F5TTS_v1_Base', 'F5TTS_Base', 'F5TTS_Small', 'E2TTS_Base', 'E2TTS_Small'],
+        help='Model to use. Default: F5TTS_v1_Base.'
     )
     args = parser.parse_args()
 

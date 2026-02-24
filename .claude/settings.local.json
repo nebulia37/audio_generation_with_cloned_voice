@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(git init:*)",
-      "Bash(git branch:*)"
+      "Bash(git branch:*)",
+      "Bash(ls:*)",
+      "Bash(python3 -m pip:*)",
+      "Bash(python:*)",
+      "Bash(ffmpeg:*)"
     ]
   }
 }
